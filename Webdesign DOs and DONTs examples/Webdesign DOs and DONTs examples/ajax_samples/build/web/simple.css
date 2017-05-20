@@ -1,0 +1,14 @@
+body, table, tr, td, th { margin: 0px; padding: 0px; font: 10pt verdana, sans }
+body { background: black repeat-x url('images/back.jpg') }
+h1 {margin: 0px; padding: 0px; }
+#header { text-align: right; color: #666666; padding: 4px; padding-top: 38px}
+#header h1 {font: 32pt impact; }
+#header i {color: white}
+a {color: white; text-decoration: none; margin: 2px; padding: 4px; padding-top: 0px;}
+a:hover {color: black; background: orange;}
+#left {float: left; width: 180px; height: 440px; background: orange; color: black;}
+#footer, #menu {clear: both; background: #444444 center repeat-x url('images/menu.jpg') ; height: 20px; padding: 2px; color: white; font-size: 10pt;}
+#footer { text-align:center; }
+#center { padding: 10px; float: right; width: 800px;}
+#news { padding-left: 15pt; margin: 0px; font-size: 10pt }
+#content {background: white}

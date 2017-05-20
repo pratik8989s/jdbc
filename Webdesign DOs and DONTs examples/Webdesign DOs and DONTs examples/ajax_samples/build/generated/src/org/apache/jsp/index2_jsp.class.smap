@@ -1,0 +1,30 @@
+SMAP
+index2_jsp.java
+JSP
+*S JSP
+*F
++ 0 index2.jsp
+index2.jsp
++ 1 products.jsp
+products.jsp
++ 2 services.jsp
+services.jsp
++ 3 home.jsp
+home.jsp
+*L
+1,32:52
+33,3:85
+35,2:88
+1#1,2:90
+36#0,2:92
+37,2:94
+38,2:96
+1#2,2:98
+39#0,2:100
+40,2:102
+41,2:104
+1#3,2:106
+42#0,2:108
+43,2:110
+44,7:112
+*E

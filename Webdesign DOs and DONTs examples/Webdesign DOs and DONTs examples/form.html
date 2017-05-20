@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		@import url('style.css');
+	</style>
+</head>
+<body>
+	<div id="container">
+	<div class="small-heading"><a href="inner.html">MGWA</a></div>
+	<div class="menu">
+		<ul>
+			<li><a href="#">Manage</a></li>
+			<li><a href="#">Reports</a></li>
+			<li><a href="#" class="current">Settings</a></li>
+			<li><a href="#">Help!</a></li>
+			<li><strong>Admin</strong>(<a href="index.html">Sign out</a>)</li>
+		</ul>
+	</menu>
+	</div>
+	<h2>Settings - Edit User</h2>
+	<table cellpadding="2" cellspacing="0" class="data-table">
+		<form>
+			<tr valign="top">
+				<td>Username</td>
+				<td>
+					<input type="text" name="username" size="20" maxlength="20" value="AS008788" /> 
+					<span class="mandate">*</span><div class="help">Please use letters, numbers or _ only. Min. length 6 characters</div>
+				</td>
+			</tr>
+			<tr valign="top" class="alt"><td>Joined date</td><td><input type="text" name="username" size="20" maxlength="20" value="11/03/2010" /> <span class="mandate">*</span><div class="help">Please use DD/MM/YYYY format. e.g. 18/05/2011</div></td></tr>
+			<tr valign="top"><td>Validity</td><td><input type="text" name="username" size="20" maxlength="20" value="11/03/2013" /><div class="help">Please use DD/MM/YYYY format. e.g. 18/05/2011</div></td></tr>
+			<tr valign="top" class="alt"><td>Remarks</td><td><textarea name="remarks" cols="40" rows="4"></textarea></td></tr>
+			<tr><td>&nbsp;</td><td align="right"><button type="submit">Save</button> &nbsp; <button type="reset">Cancel</button></td></tr>
+		</form>
+	</table>
+	<div class="info">Fields marked with <span class="mandate">*</span> are mandatory.</div>
+	<div id="footer">Copyright &copy; 2012 MGWA inc.</div>
+</body>
+</html>
